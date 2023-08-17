@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             Rectangle()
-                .background(Color(UIColor.systemGray6))
+                .foregroundColor(Color(UIColor.systemGray6))
                 .ignoresSafeArea(.all)
             WebView(urlToLoad: "https://naver.com")
                 .edgesIgnoringSafeArea(.bottom)
