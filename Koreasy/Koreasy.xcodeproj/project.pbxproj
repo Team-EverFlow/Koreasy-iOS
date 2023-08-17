@@ -14,6 +14,7 @@
 		A32DC0572A8E52A000FFD42E /* KoreasyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32DC0562A8E52A000FFD42E /* KoreasyTests.swift */; };
 		A32DC0612A8E52A000FFD42E /* KoreasyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32DC0602A8E52A000FFD42E /* KoreasyUITests.swift */; };
 		A32DC0632A8E52A000FFD42E /* KoreasyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32DC0622A8E52A000FFD42E /* KoreasyUITestsLaunchTests.swift */; };
+		A32DC0712A8E5BB100FFD42E /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32DC0702A8E5BB100FFD42E /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		A32DC05C2A8E52A000FFD42E /* KoreasyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoreasyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A32DC0602A8E52A000FFD42E /* KoreasyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoreasyUITests.swift; sourceTree = "<group>"; };
 		A32DC0622A8E52A000FFD42E /* KoreasyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoreasyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A32DC06F2A8E5A9700FFD42E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A32DC0702A8E5BB100FFD42E /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +97,10 @@
 		A32DC0442A8E529F00FFD42E /* Koreasy */ = {
 			isa = PBXGroup;
 			children = (
+				A32DC06F2A8E5A9700FFD42E /* Info.plist */,
 				A32DC0452A8E529F00FFD42E /* KoreasyApp.swift */,
 				A32DC0472A8E529F00FFD42E /* ContentView.swift */,
+				A32DC0702A8E5BB100FFD42E /* WebView.swift */,
 				A32DC0492A8E52A000FFD42E /* Assets.xcassets */,
 				A32DC04B2A8E52A000FFD42E /* Preview Content */,
 			);
@@ -257,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A32DC0712A8E5BB100FFD42E /* WebView.swift in Sources */,
 				A32DC0482A8E529F00FFD42E /* ContentView.swift in Sources */,
 				A32DC0462A8E529F00FFD42E /* KoreasyApp.swift in Sources */,
 			);
@@ -420,6 +426,7 @@
 				DEVELOPMENT_TEAM = HN3RL67C46;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Koreasy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +456,7 @@
 				DEVELOPMENT_TEAM = HN3RL67C46;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Koreasy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

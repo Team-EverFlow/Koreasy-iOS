@@ -139,3 +139,4 @@ xcuserdata
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,xcode,swift,swiftpm
 Koreasy/Koreasy.xcodeproj/project.xcworkspace/xcuserdata/hangyeongjun.xcuserdatad/UserInterfaceState.xcuserstate
+*.xcuserstate
